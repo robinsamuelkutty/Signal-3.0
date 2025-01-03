@@ -50,3 +50,23 @@
   border-radius: 20px;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+    
+  .mySwiper {
+    width: 90%; 
+    height: auto; 
+  }
+
+  .carousel-container {
+    flex-direction: column; 
+    align-items: center; 
+    
+  }
+
+  
+  .carousel-image {
+    width: 350px;
+    height:350px;
+    
+  }
+}
