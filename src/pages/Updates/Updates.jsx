@@ -4,17 +4,21 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./Updates.css";
 import wave from "../../assets/green wave 3.jpg";
+import UpadateImage3 from "../../assets/UpdateImage3.jpg";
+import UpdateImage2 from "../../assets/UpdateImage2.jpg";
+import UpadateImage1 from "../../assets/UpdateImage1.jpg";
+
 
 // Import Swiper modules
 import { Navigation } from "swiper/modules";
 
 const Updates = () => {
   const images = [
-    "https://via.placeholder.com/150",
-    "https://picsum.photos/seed/picsum/200/300",
-    "https://picsum.photos/200/300?grayscale",
-    "https://picsum.photos/200/300/?blur",
-    "https://picsum.photos/200/300.jpg",
+    UpadateImage3,
+    UpdateImage2,
+    UpadateImage1,
+   
+    
   ];
 
   return (
@@ -23,6 +27,7 @@ const Updates = () => {
       <div className="green-wave-container">
         <img src={wave} alt="Wave" className="green-wave" />
         <h2 className="workshop-heading">Updates</h2>
+        <span className="loaderUpdate"></span>
       </div>
 
       {/* Swiper Carousel */}
